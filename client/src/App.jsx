@@ -38,7 +38,7 @@ function Home() {
           marginTop: "20px",
         }}
       >
-        <a href="/admin">
+        <a href="/youdontknow">
           Admin Dashboard
         </a>
 
@@ -105,35 +105,35 @@ function App() {
         ====================================== */}
 
         <Route
-          path="/admin"
+          path="/youdontknow"
           element={
             <Dashboard />
           }
         />
 
         <Route
-          path="/admin/tables"
+          path="/youdontknow/tables"
           element={
             <Tables />
           }
         />
 
         <Route
-          path="/admin/orders"
+          path="/youdontknow/orders"
           element={
             <Orders />
           }
         />
 
         <Route
-          path="/admin/billing"
+          path="/youdontknow/billing"
           element={
             <Billing />
           }
         />
 
         <Route
-          path="/admin/menu"
+          path="/youdontknow/menu"
           element={
             <MenuManagement />
           }

@@ -479,7 +479,7 @@ function Dashboard() {
 
 
           <Link
-            to="/admin/orders"
+            to="/youdontknow/orders"
             className="quick-action-card"
           >
 
@@ -499,7 +499,7 @@ function Dashboard() {
 
 
           <Link
-            to="/admin/tables"
+            to="/youdontknow/tables"
             className="quick-action-card"
           >
 
@@ -519,7 +519,7 @@ function Dashboard() {
 
 
           <Link
-            to="/admin/billing"
+            to="/youdontknow/billing"
             className="quick-action-card"
           >
 
@@ -539,7 +539,7 @@ function Dashboard() {
 
 
           <Link
-            to="/admin/menu"
+            to="/youdontknow/menu"
             className="quick-action-card"
           >
 
